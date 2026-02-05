@@ -2,7 +2,7 @@
 import React from 'react';
 
 const MapSection: React.FC = () => {
-  const targetLink = "https://www.google.com/maps/d/viewer?mid=1-qcNmBJRQUt8257LIptl3k-4uvWqQgs&ehbc=2E312F";
+  const targetLink = "https://www.google.com/maps/d/embed?mid=1-qcNmBJRQUt8257LIptl3k-4uvWqQgs&ehbc=2E312F";
 
   return (
     <div className="card" style={{ padding: '0', overflow: 'hidden', border: 'none', background: 'transparent' }}>
