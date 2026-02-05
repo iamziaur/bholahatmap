@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ভোলাহাট ভোট কেন্দ্র সহায়তা</title>
+    <style>
+        :root { --primary: #047857; --bg: #f9fafb; --text: #111827; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+        .container { max-width: 800px; margin: 0 auto; padding: 15px; }
+        header { background: var(--primary); color: white; padding: 15px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .card { background: white; border-radius: 12px; padding: 15px; margin-bottom: 20px; border: 1px solid #e5e7eb; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+        .btn { display: inline-flex; align-items: center; justify-content: center; padding: 12px 20px; border-radius: 8px; font-weight: bold; text-decoration: none; cursor: pointer; transition: opacity 0.2s; border: none; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-red { background: #dc2626; color: white; }
+        .btn-outline { border: 1px solid var(--primary); color: var(--primary); background: white; }
+        .contact-item { display: flex; align-items: center; gap: 10px; padding: 10px; border-bottom: 1px solid #f3f4f6; }
+        .contact-item:last-child { border: 0; }
+        .icon { font-style: normal; font-size: 1.2rem; }
+        .badge { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #d1fae5; color: #065f46; font-weight: bold; }
+        .text-center { text-align: center; }
+        .mt-4 { margin-top: 1rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .placeholder-map { background: #eee; height: 200px; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 8px; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
