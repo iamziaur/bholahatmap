@@ -27,14 +27,7 @@ export const BHOLAHAT_UNIONS: Union[] = [
 ];
 
 export const TOP_CONTACTS: ContactLink[] = [
-  { 
-    name: 'জেলা প্রশাসক, চাঁপাইনবাবগঞ্জ', 
-    designation: 'জেলা রিটার্নিং অফিসার', 
-    phone: '+8801318320100',
-    icon: 'fa-solid fa-building-columns',
-    iconColor: 'bg-blue-100 text-blue-700'
-  },
-  { 
+    { 
     name: 'গৌতম কুমার বিশ্বাস', 
     designation: 'পুলিশ সুপার, চাঁপাইনবাবগঞ্জ', 
     phone: '+8801320125500',
